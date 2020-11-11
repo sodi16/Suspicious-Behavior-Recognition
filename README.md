@@ -8,5 +8,7 @@ Download the trained model - **model.h5**
 # Run on your own Dataset
 
 
-![alt text](https://github.com/sodi16/Suspicious-Behavior-Recognition/suspicious_frame.png)
+![alt text](https://github.com/sodi16/Suspicious-Behavior-Recognition/blob/main/not_suspicious_frame.png)
+![alt text](https://github.com/sodi16/Suspicious-Behavior-Recognition/blob/main/suspicious_frame.png)
+
 
