@@ -8,8 +8,8 @@ Detect human suspicious behavior, trained on Caviar dataset https://homepages.in
 
 #### Model
 I used pre-trained model *ResNet50* model to apply transfer learning, where I didnt extact the last classification.
-To classify the human action, we must add a *RNN* layer, i choose *GRU*(512 neurons) followed by one hidden layer with 1024 neurons.
-Finally the output layer, in my case I decided to classify each frame if its contains a suspicious action - 1 or not output - 0.
+To classify the human action, we must add a *RNN* layer, i choose *GRU* (512 neurons) followed by one hidden layer with 1024 neurons.
+Finally the output layer, in my case I decided to classify each frame if its contains a suspicious action  - 1 or not output - 0.
 
 
 ## Run on Caviar Dataset
