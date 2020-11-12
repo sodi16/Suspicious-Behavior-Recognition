@@ -1,9 +1,10 @@
 # Suspicious-Behavior-Recognition
 Detect human suspicious behavior, trained on Caviar dataset https://homepages.inf.ed.ac.uk/rbf/CAVIARDATA1/.
 
-  **Caviar_dataset.py** Create my caviar object, that will store my data, extract   
-  **create_data.py** Use the caviar object, convert video to frames pick the desired number of frames per seconds (5fps in my code),   extract labels from my groudntruth.xml file.  
-  Do it for all the videos of a same category, and save them as data and labels.  
+  **Caviar_dataset.py** Create my caviar object, that will store my data.    
+  **create_data.py** By using the caviar object I converted video to frames, pick the desired number of frames per seconds (5fps in my code),   extract labels from my groudntruth.xml file. I defined which of them are suspicious labels = 1, and which labels are not considered as suspicious and assign them value 0.   
+   Also keep the possibility to display video with their labels, like the bounding boxes and the description.  
+  Repeat it for all the videos of a same category, and save them as data and labels.  
 	**Model_colab.ipynb** regroup all my video data and labels together, augment my desired video data, and pass them in my model.
 
 ### Model
