@@ -13,12 +13,13 @@ I used pre-trained model *ResNet50* model to apply transfer learning, where I di
 To classify the human action, we must add a *RNN* layer, i choose *GRU* (512 neurons) followed by one hidden layer with 1024 neurons.
 Finally the output layer, I decided to classify each frame if its contains a suspicious action - 1 or not output - 0.
 
-## Few test-results of Non-suspicious behavior video
+## Few tests-results of Non-suspicious behavior video
 ![alt text](https://github.com/sodi16/Suspicious-Behavior-Recognition/blob/main/not_suspicious.gif)
 
-## Few test-results of Suspicious Leftbag video
+## Few tests-results of Suspicious Leftbag video
 ![alt text](https://github.com/sodi16/Suspicious-Behavior-Recognition/blob/main/suspicious_leftbag.gif)
+![alt text](https://github.com/sodi16/Suspicious-Behavior-Recognition/blob/main/suspicious_fight.gif)
+
 
 ## Few test-results of Suspicious fight video
-![alt text](https://github.com/sodi16/Suspicious-Behavior-Recognition/blob/main/suspicious_fight.gif)
 
