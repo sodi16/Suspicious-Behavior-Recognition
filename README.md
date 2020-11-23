@@ -14,9 +14,9 @@ To classify the human action, we must add a *RNN* layer, i choose *GRU* (512 neu
 Finally the output layer, I decided to classify each frame if its contains a suspicious action - 1 or not output - 0.
 	I finally reached 74% of accuracy on my test. (Will maybe improve it in the future)
 
-## Few tests-results of Non-suspicious behavior video
+## Few test-results of non-suspicious behavior video frames
 ![alt text](https://github.com/sodi16/Suspicious-Behavior-Recognition/blob/main/not_suspicious.gif)
 
-## Few tests-results of Suspicious behavior video (Leftbag and Fight)
+## Few test-results of Suspicious behavior video frames(Leftbag and Fight)
 ![alt text](https://github.com/sodi16/Suspicious-Behavior-Recognition/blob/main/suspicious_leftbag.gif)
 ![alt text](https://github.com/sodi16/Suspicious-Behavior-Recognition/blob/main/suspicious_fight.gif)
