@@ -16,10 +16,6 @@ Finally the output layer, I decided to classify each frame if its contains a sus
 ## Few tests-results of Non-suspicious behavior video
 ![alt text](https://github.com/sodi16/Suspicious-Behavior-Recognition/blob/main/not_suspicious.gif)
 
-## Few tests-results of Suspicious Leftbag video
+## Few tests-results of Suspicious behavior video (Leftbag and Fight)
 ![alt text](https://github.com/sodi16/Suspicious-Behavior-Recognition/blob/main/suspicious_leftbag.gif)
 ![alt text](https://github.com/sodi16/Suspicious-Behavior-Recognition/blob/main/suspicious_fight.gif)
-
-
-## Few test-results of Suspicious fight video
-
